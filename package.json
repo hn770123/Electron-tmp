@@ -16,6 +16,9 @@
     "electron": "^33.0.0",
     "electron-builder": "^24.13.3"
   },
+  "workspaces": [
+    "common-backend"
+  ],
   "build": {
     "appId": "com.example.electron-app",
     "productName": "MyElectronApp",
